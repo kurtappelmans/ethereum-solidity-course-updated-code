@@ -5,7 +5,7 @@ const provider = ganache.provider();
 const web3 = new Web3(provider);
 const { abi, evm } = require("../compile");
 
-const message = "Hi there!";
+const message = "Hello Kurt!";
 let accounts;
 let inbox;
 
